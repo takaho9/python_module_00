@@ -1,6 +1,5 @@
 def ft_garden_name():
-    printf("Enter garden name: ")
-    garden_name = input
-    printf("Garden: %s", )Community Garden
-    printf("Status: Growing well!")
-
+    print("Enter garden name: ", end="")
+    garden_name = input()
+    print("Garden:", garden_name)
+    print("Status: Growing well!")
